@@ -1,4 +1,4 @@
-import './header.scss'
+import './styles.scss'
 
 import meImg from '../../assets/me.png';
 export function Header() {

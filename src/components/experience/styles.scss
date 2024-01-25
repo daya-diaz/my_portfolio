@@ -1,0 +1,25 @@
+.experience {
+    grid-area: experience;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        text-align: center;
+        max-width: 600px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--neutral-500);
+    }
+
+    @media (min-width: 768px) {
+        align-items: start;
+        p {
+            text-align: start;
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+
+}

@@ -1,19 +1,13 @@
 import './App.scss'
-import { Header } from './components/header/Header'
+import { Experience } from './components/experience'
+import { Header } from './components/header'
 
 function App() {
 
   return (
     <main className="container">
       <Header />
-
-      <div className="experience">
-        <h3>Experiencia</h3>
-        <p>texto de paragrafo</p>
-        <div className="experienceTime">
-        </div>
-      </div>
-
+      <Experience />
       <div className="infos">
         <h3>Línguas</h3>
         <div className="languages-info">
@@ -26,7 +20,6 @@ function App() {
           <span>Análise e Desenvolvimento de Sistemas - Descomplica Faculdade Digital</span>
         </div>
       </div>
-
       <div className="contacts">
         <div className="social">
 
