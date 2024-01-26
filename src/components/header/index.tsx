@@ -10,8 +10,8 @@ export function Header() {
             </div>
             <img 
                 src={meImg} alt="Foto de Dayane Santos, desenvolvedora Front-end. 
-                Uma mulher branca de 22 anos, com cabelo cacheado solto, sorrindo e olhando para a camera" 
-                width={280}
+                Uma mulher branca de 22 anos, com cabelo cacheado castanho escuro solto, sorrindo e olhando para a camera" 
+                width={325}
             />
         </div>
     )

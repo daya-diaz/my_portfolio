@@ -6,6 +6,7 @@
     grid-area: header;
     div {
         display: flex;
+        width: 325px;
         flex-direction: column;
         align-items: start;
         gap: 4px;
@@ -30,15 +31,18 @@
         flex-direction: row-reverse;
         align-items: center;
         gap: 2rem;
+        justify-content: space-between;
         div {
             h1 {
                 font-size: 2.25rem;
                 line-height: 54px;
+                width: 400px;
             }
             h2 {
                 font-size: 1.8rem;
                 font-style: normal;
                 line-height: 45px;
+                width: 400px;
             }
         }
         img {
