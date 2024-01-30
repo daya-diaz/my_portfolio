@@ -23,18 +23,18 @@ export function Experience() {
                     </div>
                 </div>
                 <div className='progress-bar'>
-                    <img src={TypeScriptBrand} alt="" />
-                    <div className="experience-unit">
-                        <div className="experience-measure measure-1">
-                            <span>1 ano</span>
-                        </div>
-                    </div>
-                </div>
-                <div className='progress-bar'>
                     <img src={JavaScriptBrand} alt="" />
                     <div className="experience-unit">
                         <div className="experience-measure measure-2">
                             <span>2 anos</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='progress-bar'>
+                    <img src={TypeScriptBrand} alt="" />
+                    <div className="experience-unit">
+                        <div className="experience-measure measure-1">
+                            <span>1 ano</span>
                         </div>
                     </div>
                 </div>
